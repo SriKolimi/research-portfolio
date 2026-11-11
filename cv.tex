@@ -1,0 +1,76 @@
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[margin=0.8in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage[hidelinks]{hyperref}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlist[itemize]{leftmargin=1.2em, itemsep=2pt, topsep=2pt, parsep=0pt}
+
+% Section headings: small caps with a rule underneath
+\titleformat{\section}{\large\scshape\bfseries}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{10pt}{5pt}
+
+% \entry{left}{right}: bold left text, right-aligned text on the same line
+\newcommand{\entry}[2]{\textbf{#1}\hfill #2\par}
+
+\begin{document}
+
+% ---------- Header ----------
+\begin{center}
+  {\LARGE\bfseries Sri Ganesh Arnav Kolimi}\\[4pt]
+  \href{mailto:srikolimi009@gmail.com}{srikolimi009@gmail.com} \;$\cdot$\; (860) 817-7250 \;$\cdot$\; \href{https://github.com/SriKolimi}{github.com/SriKolimi}
+\end{center}
+
+% ---------- Education ----------
+\section{Education}
+\entry{University of Central Florida}{Orlando, FL}
+B.S. in Computer Science \hfill Expected Graduation: 2028\par
+GPA: 3.8/4.0
+
+% ---------- Research Interests ----------
+\section{Research Interests}
+Deep learning, computer vision
+
+% ---------- Projects ----------
+\section{Projects}
+\entry{R1: Neural Network from Scratch in NumPy}{\textit{In progress, Fall 2026}}
+\begin{itemize}
+  \item Implementing a fully connected neural network in NumPy, including forward and backward propagation.
+\end{itemize}
+
+\entry{R2: CNN Ablation Study on CIFAR-10}{\textit{In progress, Fall 2026}}
+\begin{itemize}
+  \item Ablation study of convolutional neural network design choices on the CIFAR-10 image classification benchmark.
+\end{itemize}
+
+\entry{R3: Paper Reproduction}{\textit{In progress, Fall 2026}}
+\begin{itemize}
+  \item Reproducing the results of a published deep learning paper.
+\end{itemize}
+
+% ---------- Relevant Coursework ----------
+\section{Relevant Coursework}
+\begin{itemize}
+  \item [COURSE]
+  \item [COURSE]
+  \item [COURSE]
+\end{itemize}
+
+% ---------- Certifications ----------
+\section{Certifications (In Progress)}
+\begin{itemize}
+  \item DeepLearning.AI, \textit{Deep Learning Specialization}
+  \item Anthropic, \textit{Claude Code 101}
+  \item Anthropic, \textit{Claude Code in Action}
+\end{itemize}
+
+% ---------- Skills ----------
+\section{Skills}
+Python, NumPy, Git, \LaTeX
+
+\end{document}
